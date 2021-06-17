@@ -1,0 +1,106 @@
+
+.container {
+  width: 90%;
+  margin: 15px 5%;
+  padding: 20px;
+  display: flex;
+  box-shadow: 0 0 2px lightgrey;
+  cursor: pointer;
+}
+.container:hover {
+  transform: scale(1.02);
+  transition: 1s;
+}
+
+
+.detailsBox {
+  width: 85%;
+  height: 150px;
+
+  padding-left: 20px;
+  padding-bottom:10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.details__keywords {
+  font-size: 0.9rem;
+  color: #444444;
+}
+.details__name{
+}
+.details__author{
+  font-size: 0.95rem;
+  color: #444444;
+}
+.details__origin {
+  font-size: 0.7rem;
+  margin-bottom: 10px;
+  color: orange;
+}
+
+
+.noImage {
+  width: 150px;
+  height: 150px;
+  background-color: aliceblue;
+}
+.image {
+  width: 150px;
+  height: 150px;
+}
+
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.button__show {
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+  top: 0;
+  right: 0;
+  padding: 10px;
+
+  cursor: pointer;
+
+}
+.button__show:hover {
+  background-color: aliceblue;
+}
+.button__show:active {
+  background-color: azure;
+}
+.button__hide {
+  display: none;
+}
+
+.editButton__show {
+  cursor:pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+}
+.editButton__show:hover {
+  background-color: aliceblue;
+}
+.editButton__show:active {
+  background-color: azure;
+}
+.editButton__hide {
+  display: none;
+}
+
+
+
+
+
+

@@ -1,0 +1,83 @@
+.modalShow {
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  left: 0;
+  position: fixed;
+  width:100%;
+  height: 100%;
+  background: rgb(239,248,254);
+  padding: 3%;
+  padding-left: 7%;
+}
+::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+.modalHide {
+  display:none;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+
+.closeIcon {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: left;
+  cursor: pointer;
+}
+.closeIcon:hover {
+  background-color: lightgrey;
+}
+.closeIcon:active {
+  background-color: grey;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+.recipeYield {
+  font-size: 1.5rem;
+  font-weight: 100;
+  color: grey;
+}
+
+.ingredient {
+  margin: 10px;
+  color: #444444;
+}
+
+.step__header {
+  color: #444444;
+  margin-bottom: 0;
+}
+.step__task {
+  color: #444444;
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  position: relative;
+  top: -5px;
+}
+
+.prepareHeader {
+  font-size: 1.5rem;
+  font-weight: 100;
+  color: grey;
+  margin-top: 20px;
+}
+
+.text__note {
+  margin: 10px;
+  font-size: 1.1rem;
+  color: #444444;
+}

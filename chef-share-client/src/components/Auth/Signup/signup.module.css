@@ -1,0 +1,45 @@
+.container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  height: 30vh;
+}
+
+.signupForm {
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  background-color: aliceblue;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 6px white;
+}
+
+.title {
+  font-weight: 200;
+  font-size: 1.2rem;
+}
+
+.errorText {
+  color: red;
+  font-size: small;
+}
+
+.successText {
+  color: green;
+  font-size: small;
+}
+
+.linkText {
+  color: grey;
+  font-size: small;
+  text-decoration: none;
+}
